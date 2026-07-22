@@ -2,7 +2,7 @@
 
 Personal portfolio for a Senior Data Scientist focused on NLP/LLM, healthcare analytics, and machine learning. Single-page site built with plain HTML, CSS, and vanilla JS — no build step. Hosted on GitHub Pages.
 
-**Live site:** https://anhandrewtran13.github.io/andrewtran1991.github.io/
+**Live site:** https://anhandrewtran13.github.io/
 
 ## Sections
 
