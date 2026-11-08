@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anh (Andrew) Tran — Data Science &amp; Analytics</title>
-  <meta name="description" content="Portfolio of Anh (Andrew) Tran — Senior Data Scientist specializing in NLP/LLM, machine learning, healthcare analytics, and psychometrics."/>
+  <title>Anh (Andrew) Tran — Healthcare AI, LLM Evaluation &amp; Data Science</title>
+  <meta name="description" content="Portfolio of Anh (Andrew) Tran — Senior Data Scientist and team lead building and evaluating LLM/NLP systems, predictive models, and causal evaluations on VA clinical data."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   <style>
@@ -130,6 +130,11 @@
     .proj-link { font-size: .85rem; font-weight: 500; }
     .proj-link:hover { text-decoration: underline; }
     .more-link { text-align: center; margin-top: 2.4rem; }
+    .proj-group { font-size: 1.05rem; color: var(--accent-2); margin: 0 0 1.1rem; display: flex; align-items: baseline; gap: .7rem; }
+    .proj-group small { font-family: 'Inter', sans-serif; font-weight: 400; color: var(--muted); font-size: .85rem; }
+    .proj-grid + .proj-group { margin-top: 3rem; }
+    .badge { font-family: 'JetBrains Mono', monospace; font-size: .66rem; padding: .12rem .5rem; border-radius: 999px;
+      border: 1px solid rgba(167,139,250,.5); color: var(--accent-3); margin-left: .4rem; vertical-align: middle; white-space: nowrap; }
 
     /* Publications */
     .pub-list { display: grid; gap: 1rem; }
@@ -212,18 +217,19 @@
   <div class="glow glow-1"></div>
   <div class="glow glow-2"></div>
   <div class="wrap">
-    <div class="hero-kicker">// data science · AI/LLM · healthcare analytics · technical training</div>
-    <h1>Hi, I'm <span>Anh (Andrew) Tran</span>.<br/>I turn complex data into decisions.</h1>
-    <p class="hero-sub">Senior Data Scientist with 8+ years of experience applying machine learning, NLP/LLM, and statistical modeling to healthcare, education, testing, and psychometrics.</p>
+    <div class="hero-kicker">// healthcare AI · LLM evaluation · causal inference · analytics education</div>
+    <h1>Hi, I'm <span>Anh (Andrew) Tran</span>.<br/>I build AI you can check.</h1>
+    <p class="hero-sub">Senior Data Scientist with 10 years in healthcare ML, psychometrics, and clinical evaluation. I lead a team building LLM/NLP systems, predictive models, and causal evaluations on VA clinical data — and I research whether medical reasoning models are faithful and know when they don't know.</p>
     <div class="hero-meta">
       <span>📍 Albany, NY</span>
-      <span>💼 Senior Data Scientist @ Kentro</span>
-      <span>🎓 M.S. Analytics, Georgia Tech</span>
+      <span>💼 Senior Data Scientist &amp; Team Lead @ Kentro</span>
+      <span>🎓 M.S. CS (AI), Georgia Tech — in progress</span>
     </div>
     <div class="btn-row">
       <a class="btn btn-primary" href="#projects">View Projects</a>
       <a class="btn btn-ghost" href="https://github.com/anhandrewtran13" target="_blank" rel="noopener">GitHub</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/andrewtran13/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=IVDC8wkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
     </div>
   </div>
 </section>
@@ -234,13 +240,13 @@
     <h2 class="sec-title">About Me</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>I'm a results-oriented data science and analytics professional who loves using the transformative power of <strong>data, technology, and analytics</strong> to solve complex, real-world problems.</p>
-        <p>Currently, I lead the development of <strong>predictive models and NLP/LLM solutions</strong> on 10M+ clinical records at Kentro, driving policy and care decisions across 15+ VA hospitals. Before that, I built LLM chatbots and psychometric analytics at Inteleos and researched patient health outcomes at UC San Diego Health.</p>
-        <p>I also teach data analytics and visualization to undergraduates at the <strong>University of Maryland Global Campus</strong> — because the best way to master something is to explain it. Beyond the classroom, I'm active in <strong>technical training, career coaching, and mentoring</strong>, from leading career panels to judging AI competitions.</p>
-        <p>My background bridges <strong>clinical psychology and computer science</strong>, which gives me an unusual lens: I care as much about the humans behind the data as the models built on top of it.</p>
+        <p>I'm a measurement-trained data scientist — psychometrics, clinical evaluation, causal inference — now focused on a simple question: <strong>is the model actually right, and how would we know?</strong></p>
+        <p>At Kentro I'm a <strong>Senior Data Scientist and lead a team of 5</strong> working on 10M+ clinical records from 15+ VA hospitals. We build LLM/NLP pipelines (keyword rules → transformer classifiers → LLM adjudication with expert review), predictive models for referral outcomes, and quasi-experimental evaluations of clinical decision-support tools. I own evaluation design for deployed models: holdout validation, calibration, label-quality audits, LLM-as-judge checks against human labels, and QA gates that stop bad releases.</p>
+        <p>Before that, I deployed a RAG chatbot and ran psychometric analytics for high-stakes medical certification exams at <strong>Inteleos</strong>, and spent six years researching patient outcomes on claims and EHR data at <strong>UC San Diego Health</strong>. On my own time I research <strong>chain-of-thought faithfulness and calibration in medical LLMs</strong>.</p>
+        <p>I also teach data analytics to undergraduates at the <strong>University of Maryland Global Campus</strong> and mentor early-career data professionals. My background bridges <strong>clinical psychology and computer science</strong>, so I care as much about the people behind the data as the models built on top of it.</p>
       </div>
       <div class="stats">
-        <div class="stat"><b>8+</b><span>Years of experience</span></div>
+        <div class="stat"><b>10</b><span>Years of experience</span></div>
         <div class="stat"><b>10M+</b><span>Clinical records modeled</span></div>
         <div class="stat"><b>15+</b><span>VA hospitals supported</span></div>
         <div class="stat"><b>200+</b><span>Students taught</span></div>
@@ -255,36 +261,40 @@
     <h2 class="sec-title">Technical Toolkit</h2>
     <div class="skill-grid">
       <div class="skill-card">
+        <h3>AI &amp; LLM Evaluation</h3>
+        <div class="tags"><span class="tag">LLM-as-Judge</span><span class="tag">Human-in-the-Loop Review</span><span class="tag">CoT Faithfulness</span><span class="tag">Calibration (ECE)</span><span class="tag">Abstention</span><span class="tag">Error Taxonomies</span><span class="tag">Retrieval Metrics</span><span class="tag">MLflow Evaluation</span><span class="tag">CI Quality Gates</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>Generative AI &amp; Agents</h3>
+        <div class="tags"><span class="tag">RAG</span><span class="tag">Tool-Using Agents</span><span class="tag">Multi-Agent Systems</span><span class="tag">MCP</span><span class="tag">Claude API</span><span class="tag">OpenAI</span><span class="tag">Open-Weight Models</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">LlamaIndex</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>Machine Learning &amp; NLP</h3>
+        <div class="tags"><span class="tag">PyTorch</span><span class="tag">Hugging Face (PEFT, TRL)</span><span class="tag">LoRA / QLoRA</span><span class="tag">DPO</span><span class="tag">DistilBERT</span><span class="tag">BERTopic</span><span class="tag">scikit-learn</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">TensorFlow</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>Statistics &amp; Causal Inference</h3>
+        <div class="tags"><span class="tag">A/B Testing</span><span class="tag">Difference-in-Differences</span><span class="tag">Synthetic Control</span><span class="tag">GEE</span><span class="tag">GLMs</span><span class="tag">Survival Analysis</span><span class="tag">Power Analysis</span><span class="tag">Psychometrics</span><span class="tag">Decision-Curve Analysis</span></div>
+      </div>
+      <div class="skill-card">
+        <h3>Data Platforms &amp; MLOps</h3>
+        <div class="tags"><span class="tag">Databricks</span><span class="tag">Unity Catalog</span><span class="tag">Model Serving</span><span class="tag">Agent Bricks</span><span class="tag">MLflow</span><span class="tag">Delta Lake</span><span class="tag">Azure ML</span><span class="tag">AWS (Bedrock, SageMaker)</span><span class="tag">Snowflake</span><span class="tag">BigQuery</span><span class="tag">dbt</span><span class="tag">Airflow</span></div>
+      </div>
+      <div class="skill-card">
         <h3>Programming</h3>
-        <div class="tags"><span class="tag">Python</span><span class="tag">R</span><span class="tag">SQL</span><span class="tag">PySpark</span><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">VBA</span></div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">PySpark</span><span class="tag">R</span><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span><span class="tag">VBA</span></div>
       </div>
       <div class="skill-card">
-        <h3>AI / Machine Learning</h3>
-        <div class="tags"><span class="tag">Machine Learning</span><span class="tag">Deep Learning</span><span class="tag">NLP</span><span class="tag">LLM</span><span class="tag">RAG</span><span class="tag">TensorFlow</span><span class="tag">PyTorch</span></div>
+        <h3>Healthcare Data</h3>
+        <div class="tags"><span class="tag">VA CDW</span><span class="tag">Epic EHR</span><span class="tag">Oracle Health</span><span class="tag">Claims (Optum, Medicare)</span><span class="tag">MIMIC-IV</span><span class="tag">FHIR / HL7</span><span class="tag">ICD-10 / CPT</span><span class="tag">LOINC / RxNorm</span><span class="tag">SNOMED CT</span></div>
       </div>
       <div class="skill-card">
-        <h3>Cloud &amp; Data Engineering</h3>
-        <div class="tags"><span class="tag">Azure Synapse</span><span class="tag">Azure Databricks</span><span class="tag">AWS SageMaker</span><span class="tag">AWS S3</span><span class="tag">Snowflake</span><span class="tag">ETL</span></div>
-      </div>
-      <div class="skill-card">
-        <h3>Analytics &amp; Visualization</h3>
-        <div class="tags"><span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">SPSS</span><span class="tag">SAS</span><span class="tag">Excel</span><span class="tag">R Shiny</span></div>
-      </div>
-      <div class="skill-card">
-        <h3>Statistics &amp; Research</h3>
-        <div class="tags"><span class="tag">A/B Testing</span><span class="tag">Causal Inference</span><span class="tag">Survival Analysis</span><span class="tag">Psychometrics</span><span class="tag">GLM</span></div>
-      </div>
-      <div class="skill-card">
-        <h3>Tools &amp; Workflow</h3>
-        <div class="tags"><span class="tag">Git / GitHub</span><span class="tag">Jupyter</span><span class="tag">LaTeX</span><span class="tag">Qualtrics</span><span class="tag">SAFe Agile</span></div>
-      </div>
-      <div class="skill-card">
-        <h3>Generative AI</h3>
-        <div class="tags"><span class="tag">Prompt Engineering</span><span class="tag">LLM Fine-Tuning</span><span class="tag">RAG Pipelines</span><span class="tag">AI Agents</span><span class="tag">LLM Evaluation</span><span class="tag">Databricks GenAI</span></div>
+        <h3>Analytics &amp; Tools</h3>
+        <div class="tags"><span class="tag">Power BI (DAX)</span><span class="tag">Microsoft Fabric</span><span class="tag">Tableau</span><span class="tag">Looker</span><span class="tag">R Shiny</span><span class="tag">Git / GitHub CI</span><span class="tag">Claude Code</span><span class="tag">Jira</span><span class="tag">Qualtrics</span></div>
       </div>
       <div class="skill-card">
         <h3>Leadership &amp; Professional</h3>
-        <div class="tags"><span class="tag">Technical Training</span><span class="tag">Career Coaching</span><span class="tag">Mentoring</span><span class="tag">Project Management</span><span class="tag">Research Design</span><span class="tag">Stakeholder Communication</span></div>
+        <div class="tags"><span class="tag">Team Leadership</span><span class="tag">Mentoring</span><span class="tag">Technical Training</span><span class="tag">Research Design</span><span class="tag">White Papers</span><span class="tag">Executive Briefings</span><span class="tag">SAFe Agile</span></div>
       </div>
       <div class="skill-card">
         <h3>Languages</h3>
@@ -301,35 +311,35 @@
     <div class="timeline">
       <div class="job">
         <div class="job-head">
-          <div><h3>Senior Data Scientist (Healthcare)</h3><span class="org">Kentro (dba IT Concepts Inc.) · Remote</span></div>
+          <div><h3>Senior Data Scientist (Healthcare) · Team Lead</h3><span class="org">Kentro (dba IT Concepts Inc.) — U.S. Department of Veterans Affairs · Remote</span></div>
           <span class="dates">Feb 2026 – Present</span>
         </div>
         <ul>
-          <li>Lead development of predictive models and NLP/LLM solutions on 10M+ clinical records, driving policy and care decisions across 15+ VA hospitals.</li>
-          <li>Designed Power BI dashboards and KPI frameworks, contributing to a 12% reduction in cost variability.</li>
-          <li>Accelerated large-scale healthcare data analysis by 40% using AWS and Azure Databricks.</li>
-          <li>Provide strategic consulting to leadership and mentor team members through code reviews.</li>
+          <li>Lead a team of 5 delivering LLM/NLP, predictive modeling, and causal-evaluation work on 10M+ clinical records from 15+ VA hospitals; manage interns and mentor junior data scientists through code review.</li>
+          <li>Built a three-stage classification pipeline for free-text referral cancellations — keyword tagging, DistilBERT with confidence scoring, then LLM adjudication (Claude) of ambiguous cases with clinical-expert review. Reached 0.90 accuracy / 0.77 macro F1 on 25 classes and surfaced 30+ cancellation reasons experts hadn't yet defined; benchmarked open-weight MedGemma against the Claude API on accuracy, cost, and data control.</li>
+          <li>Own evaluation for deployed clinical models and LLM workflows — temporal/holdout validation, calibration, label-quality audits, LLM-as-judge agreement checks, and MLflow evaluation — with CI quality gates that block a release when checks fail.</li>
+          <li>Found a silent failure in a VA EHR-modernization pipeline (one stage read only 1 of 5 input sources, with no errors logged); fixed it with a schema contract and added QA gates that halt promotion.</li>
+          <li>Shipped a tool-using LLM agent on Databricks (Model Serving, Agent Bricks, MLflow evaluation) with tracing, and built a Claude Code skill the team uses.</li>
         </ul>
       </div>
       <div class="job">
         <div class="job-head">
-          <div><h3>Data Scientist (Healthcare)</h3><span class="org">Kentro (dba IT Concepts Inc.) · Remote</span></div>
+          <div><h3>Data Scientist (Healthcare)</h3><span class="org">Kentro (dba IT Concepts Inc.) — U.S. Department of Veterans Affairs · Remote</span></div>
           <span class="dates">Nov 2024 – Jan 2026</span>
         </div>
         <ul>
-          <li>Applied machine learning, causal inference, and NLP to large-scale clinical data for actionable healthcare insights.</li>
-          <li>Built ETL pipelines (SQL, PySpark, Databricks) processing millions of records from VA data systems.</li>
-          <li>Developed predictive and NLP-based referral models and 5+ Power BI dashboards tracking key metrics.</li>
+          <li>Designed quasi-experimental evaluations of clinical decision-support tools, including a three-arm study across 19 facilities (219,838 visits) with binomial tests and GEE, and staggered difference-in-differences with synthetic control as a robustness check — reporting null results plainly so leadership could act on them.</li>
+          <li>Built hybrid NLP pipelines and predictive models for referral outcomes; built and maintained ETL pipelines (SQL, PySpark, Databricks) over VA Corporate Data Warehouse data.</li>
+          <li>Delivered 5+ Power BI dashboards and KPI frameworks for executive stakeholders (contributing to a 12% reduction in cost variability), plus technical white papers.</li>
         </ul>
       </div>
       <div class="job">
         <div class="job-head">
-          <div><h3>Data Analytics Instructor</h3><span class="org">University of Maryland Global Campus · Remote</span></div>
+          <div><h3>Adjunct Assistant Professor, Data Analytics</h3><span class="org">University of Maryland Global Campus · Part-time Remote</span></div>
           <span class="dates">Sep 2022 – Present</span>
         </div>
         <ul>
-          <li>Teach data analytics and visualization (SQL, Power BI, Tableau) to 200+ undergraduates with a 95% satisfaction rate.</li>
-          <li>Contributed significantly to the redevelopment of the data analytics curriculum.</li>
+          <li>Teach data analytics and visualization (SQL, Power BI, Tableau) to 200+ undergraduates with a 95% satisfaction rate; co-led curriculum redevelopment.</li>
         </ul>
       </div>
       <div class="job">
@@ -338,20 +348,29 @@
           <span class="dates">Feb 2022 – Sep 2024</span>
         </div>
         <ul>
-          <li>Applied survival analysis, GLMs, clustering, and NLP to diagnostic exam data, improving accuracy by 15%.</li>
-          <li>Developed and deployed an LLM chatbot on AWS that answers questions from technical documents, cutting response time by 30%.</li>
-          <li>Built R packages, Shiny apps, and Snowflake ETL processes, reducing operational costs by 25%.</li>
+          <li>Built and deployed a retrieval (RAG) chatbot on AWS Bedrock with pgvector over technical document corpora, with pre-release evaluation and post-launch A/B tests; cut response time 30%.</li>
+          <li>Ran psychometric and statistical analyses (item analysis, survival analysis, GLMs, clustering) on medical certification exams, improving quality-control accuracy 15%; integrated NLP into test development (enemy-item detection, automated assembly), improving validity 30%.</li>
+          <li>Ran go-to-market, pricing, and demand analyses for a new assessment product; built Snowflake ETL, R packages, and Shiny apps that cut operational costs 25%.</li>
         </ul>
       </div>
       <div class="job">
         <div class="job-head">
-          <div><h3>Research Data Analyst / Data Scientist</h3><span class="org">UC San Diego Health – CASRC · San Diego, CA</span></div>
-          <span class="dates">Aug 2018 – Feb 2022</span>
+          <div><h3>Research Data Analyst II / Data Scientist <span style="color:var(--muted);font-weight:400">· previously Research Associate</span></h3><span class="org">UC San Diego Health — Child &amp; Adolescent Services Research Center · San Diego, CA</span></div>
+          <span class="dates">Aug 2016 – Feb 2022</span>
         </div>
         <ul>
-          <li>Analyzed patient health outcomes using large-scale claims data (Optum, Medicare) and EHR systems.</li>
-          <li>Applied ML techniques (clustering, decision trees, sentiment analysis, neural networks) to increase predictive accuracy by 20%.</li>
-          <li>Designed the ETL pipeline for a new SQL Server data warehouse, improving retrieval times by 30%.</li>
+          <li>Analyzed patient outcomes on large-scale claims (Optum, Medicare) and Epic EHR data with GLMs, time-series models, and inferential tests; ran A/B tests; co-authored peer-reviewed research.</li>
+          <li>Built ML models that improved predictive accuracy 20% and deployed a psychiatric readmission-risk tool (7/30/60/90-day horizons).</li>
+          <li>Designed the ETL pipeline for a new SQL Server research data warehouse (30% faster retrieval) and automated reporting used by 100+ professionals; managed 3 interns.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head">
+          <div><h3>Research Associate</h3><span class="org">Rady Children's Hospital-San Diego · Part-time</span></div>
+          <span class="dates">Jan 2018 – Mar 2021</span>
+        </div>
+        <ul>
+          <li>Managed research databases and analyses (SPSS, R) for the SUCCESS program for autistic teens and adults; designed Qualtrics XM surveys on program, provider, and client experience.</li>
         </ul>
       </div>
     </div>
@@ -362,58 +381,111 @@
   <div class="wrap reveal">
     <div class="sec-label">04 / projects</div>
     <h2 class="sec-title">Featured Projects</h2>
+    <h3 class="proj-group">Healthcare AI at the VA <small>professional work via Kentro · code not public</small></h3>
     <div class="proj-grid">
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/Faithfulness-Medical-LLM" target="_blank" rel="noopener">Faithfulness in Medical LLMs</a></h3><span class="year">2026</span></div>
-        <p>Beyond final-answer accuracy: auditing reasoning faithfulness in test-time-scaled medical LLMs. A pilot audit of HuatuoGPT-o1 on MedXpertQA Reasoning.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">LLM</span><span class="tag">Evaluation</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/Faithfulness-Medical-LLM" target="_blank" rel="noopener">View on GitHub →</a>
+        <div class="proj-top"><h3>Three-Stage Referral Classification Pipeline</h3><span class="year">2025 – 2026</span></div>
+        <p>Keyword rules → DistilBERT with confidence buckets → LLM adjudication (Claude) of low-confidence cases, with clinical experts reviewing disagreements and corrections fed back into the model. On ~63k cancelled consults: 0.90 accuracy / weighted F1 and 0.77 macro F1 across 25 classes; surfaced 30+ previously uncatalogued cancellation reasons. Benchmarked open-weight MedGemma for cost.</p>
+        <div class="tags"><span class="tag">DistilBERT</span><span class="tag">BERTopic</span><span class="tag">Claude API</span><span class="tag">LLM-as-Judge</span><span class="tag">Databricks</span></div>
+        <span class="proj-link" style="color:var(--muted)">VA clinical records</span>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3>Referral Cancellation NLP Pipeline</h3><span class="year">2025</span></div>
-        <p>Hybrid NLP pipeline (keyword tagging + DistilBERT classification + BERTopic clustering) analyzing 50,000+ referral records — reclassified 70%+ of "Unknown" entries and improved label accuracy by 35%.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">DistilBERT</span><span class="tag">BERTopic</span><span class="tag">HDBSCAN</span></div>
-        <span class="proj-link" style="color:var(--muted)">Professional work — VA healthcare</span>
+        <div class="proj-top"><h3>Federal EHR Order Lookup Tool</h3><span class="year">2025 – 2026</span></div>
+        <p>Databricks/PySpark pipeline behind a Power BI app that crosswalks legacy VistA/CPRS orders to Oracle Health orderables, so providers at up to 12 transitioning VA sites can find the right order by searching a natural phrase. Four-phase ETL with SME-curated mappings reviewed via GitHub CI, staged promotion, and QA gates; traced and fixed a silent defect where 4 of 5 input sources never reached the output.</p>
+        <div class="tags"><span class="tag">PySpark</span><span class="tag">Delta Lake</span><span class="tag">ADLS Gen2</span><span class="tag">GitHub CI</span><span class="tag">Power BI</span></div>
+        <span class="proj-link" style="color:var(--muted)">VA EHR modernization</span>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3>Alzheimer's Disease Prediction</h3><span class="year">2025</span></div>
-        <p>Multi-modal models for early detection of Mild Cognitive Impairment using acoustic, linguistic, and social-determinant features. Top 30 of 400 submissions in the NIH/NIA PREPARE Challenge.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">Whisper API</span><span class="tag">BERT</span></div>
+        <div class="proj-top"><h3>RAI-C Algorithmic Drift Evaluation <span class="badge">published</span></h3><span class="year">2025 – 2026</span></div>
+        <p>Revalidated a widely used surgical frailty screen on ~600k patients (UPMC and VHA): built a text-parsing pipeline over free-text CPRS templates, recalibrated the model, and assessed discrimination, calibration, and decision-curve net benefit. Concluded the gains didn't justify redeployment (1,400–6,000 screens per additional correct classification).</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">R</span><span class="tag">Calibration</span><span class="tag">TRIPOD+AI</span></div>
+        <span class="proj-link" style="color:var(--muted)">Journal of the American Geriatrics Society, 2026</span>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>Clinical Decision-Support Evaluations</h3><span class="year">2025 – 2026</span></div>
+        <p>Causal evaluations of VA clinical reminders and templates: a three-arm cirrhosis study across 19 facilities (219,838 visits) using GEE (MELD lab completion ~11.5% vs ~9%); a CKD screening reminder (7.2% higher adjusted odds of lab ordering in the patients lacking recent kidney data); and staggered difference-in-differences for VTE prophylaxis templates across 100+ sites (a null result, reported as one).</p>
+        <div class="tags"><span class="tag">GEE</span><span class="tag">Callaway–Sant'Anna DiD</span><span class="tag">Synthetic Control</span><span class="tag">VA CDW</span></div>
+        <span class="proj-link" style="color:var(--muted)">VA national cohorts</span>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>Hepatology Referral Outcome Prediction</h3><span class="year">2025 – 2026</span></div>
+        <p>End-to-end ML pipeline on 29,211 hepatology referrals predicting pre-scheduling cancellation and 180-day care completion from 48 clinical, operational, and social-determinant features. Translated scores into risk deciles (top decile at 3–5× the event rate of the bottom) for targeted outreach.</p>
+        <div class="tags"><span class="tag">PySpark</span><span class="tag">XGBoost</span><span class="tag">scikit-learn</span><span class="tag">Databricks</span></div>
+        <span class="proj-link" style="color:var(--muted)">VA white paper</span>
+      </div>
+    </div>
+
+    <h3 class="proj-group">Research &amp; Independent Projects</h3>
+    <div class="proj-grid">
+      <div class="proj">
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/Faithfulness-Medical-LLM" target="_blank" rel="noopener">Reasoning Faithfulness &amp; Calibration in Medical LLMs</a></h3><span class="year">2026</span></div>
+        <p>Two-phase audit of medical reasoning models: does the stated chain of thought actually drive the answer (early-answer rate, biased-input flip rate, paraphrase sensitivity), and does the model know when it doesn't know (ECE, consistency, abstention)? Compared HuatuoGPT-o1, m1, and DeepSeek-R1-Distill with Claude, GPT-4o, and o3-mini on MedXpertQA and MetaMedQA. Faithfulness decouples from accuracy, medical fine-tuning collapses abstention, and targeted LoRA/DPO training restores it.</p>
+        <div class="tags"><span class="tag">PyTorch</span><span class="tag">HF PEFT/TRL</span><span class="tag">LoRA</span><span class="tag">DPO</span><span class="tag">AI Safety</span></div>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/Faithfulness-Medical-LLM" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>Sepsis Case Review on MIMIC-IV <span class="badge">in progress</span></h3><span class="year">2026</span></div>
+        <p>Databricks pipeline that turns MIMIC-IV admissions, labs, medications, ICU events, and notes into structured sepsis case-review packets — clinical timelines, measure rules with rationale and confidence, and evidence-gap flags — as the foundation for LLM- and agent-assisted early sepsis identification and chart abstraction.</p>
+        <div class="tags"><span class="tag">Databricks</span><span class="tag">PySpark</span><span class="tag">MIMIC-IV</span><span class="tag">Clinical NLP</span></div>
+        <span class="proj-link" style="color:var(--muted)">Healthcare LLM research</span>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>SNOMED CT Clinical Entity Linking</h3><span class="year">2026</span></div>
+        <p>Dictionary-based linker mapping discharge-note spans to SNOMED CT concepts (RF2 flattening, synonym and abbreviation matching, longest-match-first, abstention rules) with a Databricks bronze/silver ETL and character-level IoU scoring.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Databricks</span><span class="tag">SNOMED CT</span><span class="tag">Clinical NLP</span></div>
+        <span class="proj-link" style="color:var(--muted)">DrivenData benchmark</span>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>Real-Time Meeting Assistant</h3><span class="year">2025 – 2026</span></div>
+        <p>Streaming assistant that captures live system audio, transcribes it with Whisper, and runs an LLM agent loop with conversational memory and tool use for summaries, retrieval, mid-meeting Q&amp;A, and action-item extraction.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Whisper</span><span class="tag">Claude</span><span class="tag">Agents</span></div>
+        <span class="proj-link" style="color:var(--muted)">Personal agentic tooling</span>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3>Alzheimer's Disease Prediction</h3><span class="year">2024 – 2025</span></div>
+        <p>Ensemble models fusing acoustic biomarkers, ALBERT language features, Whisper speech embeddings, and social-determinant covariates for early detection of mild cognitive impairment. Top 30 of 400 submissions in the NIH/NIA PREPARE Challenge; published as a preprint.</p>
+        <div class="tags"><span class="tag">PyTorch</span><span class="tag">Whisper</span><span class="tag">ALBERT</span><span class="tag">Ensembling</span></div>
         <span class="proj-link" style="color:var(--muted)">NIH/NIA PREPARE Challenge</span>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/BLUE_Score" target="_blank" rel="noopener">BLEU Score for LLM Evaluation</a></h3><span class="year">2025</span></div>
-        <p>Comparison of NLTK vs. SacreBLEU for machine-translation quality evaluation, highlighting differences in standardization, preprocessing, and reproducibility when assessing LLMs.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">LLM</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/BLUE_Score" target="_blank" rel="noopener">View on GitHub →</a>
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/BLUE_Score" target="_blank" rel="noopener">BLEU Score — LLM Evaluation Reproducibility</a></h3><span class="year">2024 – 2025</span></div>
+        <p>Open-source study of how BLEU implementation choices (NLTK vs. SacreBLEU tokenization, preprocessing, standardization) change measured LLM/MT quality — and why evaluation pipelines without fixed settings produce numbers that can't be compared.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">LLM Evaluation</span></div>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/BLUE_Score" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/Document-Interpreter-Chatbot" target="_blank" rel="noopener">Document Interpreter Chatbot</a></h3><span class="year">2024</span></div>
-        <p>RAG-style chatbot built with Python and LlamaIndex that reads imported documents and answers natural-language questions, improving document accessibility by 30%.</p>
-        <div class="tags"><span class="tag">Python</span><span class="tag">LlamaIndex</span><span class="tag">RAG</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/Document-Interpreter-Chatbot" target="_blank" rel="noopener">View on GitHub →</a>
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/Document-Interpreter-Chatbot" target="_blank" rel="noopener">Document Interpreter Chatbot</a></h3><span class="year">2023 – 2024</span></div>
+        <p>Retrieval-augmented chatbot (Python, LlamaIndex) that ingests document corpora and answers grounded natural-language questions, improving document accessibility by 30%.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">LlamaIndex</span><span class="tag">RAG</span><span class="tag">Embeddings</span></div>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/Document-Interpreter-Chatbot" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/Enemy-Item-Detection" target="_blank" rel="noopener">ML &amp; NLP in Test Development</a></h3><span class="year">2023</span></div>
-        <p>Integrated machine learning and NLP (topic models, LDA) into test development — item bank analysis and automatic test assembly — improving test validity and balance by 30%.</p>
-        <div class="tags"><span class="tag">R</span><span class="tag">Python</span><span class="tag">SnowSQL</span><span class="tag">NLP</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/Enemy-Item-Detection" target="_blank" rel="noopener">View on GitHub →</a>
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/Enemy-Item-Detection" target="_blank" rel="noopener">ML &amp; NLP in Test Development</a></h3><span class="year">2023</span></div>
+        <p>Topic modeling and semantic similarity for enemy-item detection and automated test assembly in a high-stakes certification program, improving validity and content balance by 30%. Presented at ATP Innovations in Testing 2024.</p>
+        <div class="tags"><span class="tag">R</span><span class="tag">Python</span><span class="tag">SnowSQL</span><span class="tag">LDA</span></div>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/Enemy-Item-Detection" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/BHEI-And-Service-Planning" target="_blank" rel="noopener">Behavioral Health Equity Index</a></h3><span class="year">2022</span></div>
-        <p>R Shiny application presenting a Behavioral Health Equity Index (BHEI) to support mental health service planning in San Diego County, enhancing resource allocation by 20%.</p>
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/Early-Psychiatric-Rehospitalization-Prediction" target="_blank" rel="noopener">Early Psychiatric Rehospitalization Prediction</a></h3><span class="year">2021 – 2022</span></div>
+        <p>Data pipeline and ML models predicting psychiatric readmission at 7/30/60/90 days (Georgia Tech M.S. Analytics capstone); improved accuracy 35% and was deployed as an internal tool.</p>
+        <div class="tags"><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">scikit-learn</span></div>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/Early-Psychiatric-Rehospitalization-Prediction" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="proj">
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/BHEI-And-Service-Planning" target="_blank" rel="noopener">Behavioral Health Equity Index</a></h3><span class="year">2021 – 2022</span></div>
+        <p>Composite behavioral health index built from public and administrative sources and shipped as a self-serve R Shiny app supporting mental health service planning in San Diego County (+20% resource allocation).</p>
         <div class="tags"><span class="tag">R Shiny</span><span class="tag">COINr</span><span class="tag">tidycensus</span><span class="tag">Power BI</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/BHEI-And-Service-Planning" target="_blank" rel="noopener">View on GitHub →</a>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/BHEI-And-Service-Planning" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
       <div class="proj">
-        <div class="proj-top"><h3><a href="https://github.com/andrewtran1991/COVID-19-Detection-with-X-ray-Image-Classification-Using-Cloud-Computing-Platforms" target="_blank" rel="noopener">COVID-19 X-ray Detection</a></h3><span class="year">2020</span></div>
+        <div class="proj-top"><h3><a href="https://github.com/anhandrewtran13/COVID-19-Detection-with-X-ray-Image-Classification-Using-Cloud-Computing-Platforms" target="_blank" rel="noopener">COVID-19 X-ray Detection</a></h3><span class="year">2020</span></div>
         <p>Deep learning models (PyTorch) deployed with AWS SageMaker, Lambda, and API Gateway to classify chest X-rays for COVID-19 detection at 90% accuracy, with a real-time web app.</p>
         <div class="tags"><span class="tag">PyTorch</span><span class="tag">AWS</span><span class="tag">Deep Learning</span></div>
-        <a class="proj-link" href="https://github.com/andrewtran1991/COVID-19-Detection-with-X-ray-Image-Classification-Using-Cloud-Computing-Platforms" target="_blank" rel="noopener">View on GitHub →</a>
+        <a class="proj-link" href="https://github.com/anhandrewtran13/COVID-19-Detection-with-X-ray-Image-Classification-Using-Cloud-Computing-Platforms" target="_blank" rel="noopener">View on GitHub →</a>
       </div>
     </div>
     <div class="more-link">
-      <a class="btn btn-ghost" href="https://github.com/andrewtran1991?tab=repositories" target="_blank" rel="noopener">See all projects on GitHub →</a>
+      <a class="btn btn-ghost" href="https://github.com/anhandrewtran13?tab=repositories" target="_blank" rel="noopener">See all projects on GitHub →</a>
     </div>
   </div>
 </section>
@@ -424,9 +496,21 @@
     <h2 class="sec-title">Publications</h2>
     <div class="pub-list">
       <div class="pub">
+        <h3>Re-evaluating Predictive Performance in the Clinical Risk Analysis Index of Frailty</h3>
+        <span class="venue">Journal of the American Geriatrics Society</span><span class="pub-date">2026</span>
+        <p>Desai, N., Jacobs, M. A., Tran, A., et al. (2026). Algorithmic drift and revalidation of the RAI-C surgical frailty screen across ~600k patients in two health systems.</p>
+        <a class="pub-link" href="https://scholar.google.com/citations?user=IVDC8wkAAAAJ" target="_blank" rel="noopener">View on Google Scholar →</a>
+      </div>
+      <div class="pub">
+        <h3>On Auditing Reasoning Faithfulness and Confidence Calibration in Medical LLMs</h3>
+        <span class="venue">Manuscript in preparation</span><span class="pub-date">2026</span>
+        <p>Tran, A. (2026). Whether medical reasoning models' chain of thought drives their answers, and whether they can abstain when uncertain.</p>
+        <a class="pub-link" href="https://github.com/anhandrewtran13/Faithfulness-Medical-LLM" target="_blank" rel="noopener">View code →</a>
+      </div>
+      <div class="pub">
         <h3><a href="https://doi.org/10.48550/arXiv.2503.16560" target="_blank" rel="noopener">Early Prediction of Alzheimer's and Related Dementias: A Machine Learning Approach Utilizing Social Determinants of Health Data</a></h3>
         <span class="venue">arXiv</span><span class="pub-date">Mar 2025</span>
-        <p>Machine learning models leveraging social determinants of health data for early prediction of Alzheimer's disease and related dementias. arXiv:2503.16560 [q-bio.QM].</p>
+        <p>Kindo, B., Restar, A., &amp; Tran, A. (2025). Machine learning models leveraging social determinants of health data for early prediction of Alzheimer's disease and related dementias. arXiv:2503.16560 [q-bio.QM].</p>
         <a class="pub-link" href="https://doi.org/10.48550/arXiv.2503.16560" target="_blank" rel="noopener">Read publication →</a>
       </div>
       <div class="pub">
@@ -442,6 +526,13 @@
         <a class="pub-link" href="https://doi.org/10.1089/aut.2020.0009" target="_blank" rel="noopener">Read publication →</a>
       </div>
     </div>
+    <h3 class="proj-group" style="margin-top:2.6rem">Selected Presentations</h3>
+    <ul class="certs">
+      <li><b>Integrating Machine Learning and NLP in Test Development: A Case Study</b> ePoster · ATP Innovations in Testing · 2024</li>
+      <li><b>Open Trial Study of SUCCESS for Individuals with Autism Spectrum Disorders</b> Poster · Pediatric Research Symposium, Rady Children's Hospital · 2018</li>
+      <li><b>Evaluation of Full Service Partnership Programs and Behavioral Health Outcomes</b> Poster · CASRC Meeting of the Minds, UC San Diego · 2017</li>
+      <li><b>The Effect of Attention on Syntactic Choice</b> Poster · UC San Diego &amp; UC Berkeley research conferences · 2015</li>
+    </ul>
   </div>
 </section>
 
@@ -451,16 +542,28 @@
     <h2 class="sec-title">Community &amp; Leadership</h2>
     <div class="comm-grid">
       <div class="comm">
-        <h3>Viet Career Conference 2026</h3>
+        <h3>Viet Career Guide</h3>
         <span class="role">Virtual Panel Lead · Case Competition Mentor</span>
-        <span class="dates">2026</span>
-        <p>Led a virtual career panel connecting Vietnamese students and early-career professionals with industry experts in data science and technology. Mentored case competition teams on analytical problem-solving, storytelling with data, and presentation strategy.</p>
+        <span class="dates">May 2026 – Present</span>
+        <p>Lead the team designing and running two virtual career panels for the 2026 Viet Career Conference (300+ attendees), and deliver data analytics training and mentoring to Think-A-Thon case competition participants.</p>
       </div>
       <div class="comm">
-        <h3>Vietnam AI Stars 2026</h3>
+        <h3>Vietnam AI Stars</h3>
         <span class="role">Mentor · Judge</span>
-        <span class="dates">2026</span>
-        <p>Mentored emerging AI talent and judged submissions in a national competition spotlighting Vietnam's next generation of AI builders — evaluating projects on technical rigor, innovation, and real-world impact, and coaching participants on machine learning and career growth in AI.</p>
+        <span class="dates">May 2026 – Present</span>
+        <p>Mentor and evaluate two competing teams building AI products in a national start-up competition, coaching them on technical rigor, product thinking, and real-world impact.</p>
+      </div>
+      <div class="comm">
+        <h3>Mentoring Early-Career Data Professionals</h3>
+        <span class="role">Career Mentor</span>
+        <span class="dates">Ongoing</span>
+        <p>Biweekly one-on-one mentoring on data science careers, resumes, and portfolios; at work, I manage interns and mentor junior data scientists on modeling and evaluation practice.</p>
+      </div>
+      <div class="comm">
+        <h3>Vietnamese American Analytics Professionals Association</h3>
+        <span class="role">Co-Founder · Chief Marketing Officer</span>
+        <span class="dates">Jan 2021 – Jan 2022</span>
+        <p>Co-founded a national nonprofit supporting members through networking, technical skills development, mentoring, and free career coaching and tutoring for Vietnamese students.</p>
       </div>
     </div>
   </div>
@@ -472,9 +575,9 @@
     <h2 class="sec-title">Education &amp; Credentials</h2>
     <div class="edu-grid">
       <div class="edu">
-        <h3>M.S. Computer Science — Machine Learning</h3>
+        <h3>M.S. Computer Science — AI Specialization</h3>
         <span class="school">Georgia Institute of Technology</span>
-        <span class="dates">Expected May 2026</span>
+        <span class="dates">Aug 2024 – May 2027 (expected)</span>
       </div>
       <div class="edu">
         <h3>M.S. Analytics — Computational Data Track</h3>
@@ -488,7 +591,7 @@
       </div>
     </div>
     <ul class="certs">
-      <li><b>Generative AI Engineering with Databricks</b> Databricks · June 2026</li>
+      <li><b>Databricks Certified Generative AI Engineer Associate</b> Databricks · September 2026</li>
       <li><b>Leading SAFe Agile</b> Scaled Agile Inc · 2024</li>
       <li><b>AWS Cloud Practitioner</b> AWS · 2022</li>
       <li><b>Machine Learning with TensorFlow</b> Udacity · 2022</li>
@@ -502,11 +605,12 @@
   <div class="wrap reveal">
     <div class="sec-label">08 / contact</div>
     <h2 class="sec-title">Let's Connect</h2>
-    <p>Whether it's a data science challenge, a collaboration idea, or just a good conversation about NLP and healthcare analytics — I'd love to hear from you.</p>
+    <p>Whether it's a healthcare AI problem, an LLM evaluation question, a research collaboration, or just a good conversation about measurement and models — I'd love to hear from you.</p>
     <div class="btn-row" style="justify-content:center">
       <a class="btn btn-primary" href="mailto:anhandrewtran13@gmail.com">Email Me</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/andrewtran13/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn btn-ghost" href="https://github.com/anhandrewtran13" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=IVDC8wkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
     </div>
   </div>
 </section>
